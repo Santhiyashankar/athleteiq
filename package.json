@@ -1,0 +1,19 @@
+{
+  "name": "athleteiq",
+  "version": "1.0.0",
+  "description": "AI-powered sports talent assessment app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.1"
+  }
+}
